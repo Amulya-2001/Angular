@@ -1,0 +1,17 @@
+form{
+    width: 30%;
+	padding: 3%;
+	padding-top: 20px;
+	font-weight: bold;
+	margin: 12%;
+	font-size: 15px;
+	margin-left: 425px ;
+	box-shadow: 3px 3px 3px #ccc;
+	border: 0.5px solid #ccc;
+    text-align: center;
+
+}
+h2.pageTitle{
+    text-align: center;
+
+}
