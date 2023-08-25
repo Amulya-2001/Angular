@@ -8,11 +8,15 @@ import{Router} from '@angular/router';
 })
 export class AppComponent {
   title = 'week1Project';
+  title1='Amulya';
   constructor(private router:Router){}
   loginPage(){
     this.router.navigate(['login']);
   }
-  dashboardPage(){
+  /*dashboardPage(){
     this.router.navigate(['dashboard']);
+  }*/
+  homePage(){
+    this.router.navigate(['home']);
   }
 }

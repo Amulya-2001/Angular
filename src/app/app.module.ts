@@ -12,12 +12,14 @@ import { DataService } from './data.service';
 import {MatInputModule} from '@angular/material/input';
 import{MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    HomeComponent
 
   ],
   imports: [
@@ -34,4 +36,6 @@ import {MatTableModule} from '@angular/material/table';
   bootstrap: [AppComponent],
   
 })
-export class AppModule { }
+export class AppModule {
+  
+ }

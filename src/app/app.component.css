@@ -7,13 +7,12 @@ h2{
 
     white-space: nowrap;
 
-    width: 97.2%;
+    width: 98.8%;
     display: flex;
 	flex-direction: row;
     text-align: center;
 	padding: 0% 0.5% 0% 0.5% ;
    color:black;
-	width: 100%;
 	margin: 0%;
 			
 }
@@ -26,6 +25,7 @@ h2{
     margin-left: 30px;
     font-size: 15px;
     border-style: hidden;
+
 }
 .avail .btn1:hover,.btn2:hover {
     background-color: black;
@@ -33,3 +33,4 @@ h2{
     color: rgba(7, 236, 221, 0.961);
     
 }
+

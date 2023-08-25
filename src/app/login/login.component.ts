@@ -20,6 +20,7 @@ export class LoginComponent {
   login(): void{
     if(this.dataService.authenticate(this.username,this.password)){
      console.log('Authentication successfull.Navigating to dashboard...');
+     console.log('Successfully login to the dashboard');
       this.router.navigate(['/dashboard']);
     }
     else{

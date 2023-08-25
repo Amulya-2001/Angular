@@ -4,9 +4,6 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class DataService {
-
- 
-
   constructor() { }
 
  
@@ -18,10 +15,12 @@ export class DataService {
     {Username:'userThree',Password:'pwThree'},
   ];
   getValues():string[]{
-    return this.values;
+    return this.values.slice();
   }
-  addValue(value:string):void{
+  addValue(value:string):void
+  {
     this.values.push(value);
+   
   }
 
   authenticate(username:string,password:string):boolean{

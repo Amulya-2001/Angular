@@ -28,9 +28,9 @@
             <td>{{n}}</td>
         </tr>-->
     </table><br><br>
-<div class="input">
-<input [(ngModel)]="newValue" placeholder="new Value">
-<button mat-raised-button (click)="addValue()">Add Value</button>
+    <div class="input">
+    <input [(ngModel)]="newValue" placeholder="Add new Value">
+    <button mat-raised-button (click)="addValue(newValue)">Add Value</button>
 </div>
 </div>
 
